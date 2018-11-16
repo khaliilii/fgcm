@@ -1,0 +1,30 @@
+{
+    "name": "khaliilii/fgcm",
+    "description": "Firebase Google Cloud Messaging::Mohsen Khalili",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohsen Khalili",
+            "email": "khalili.mohsen@rocketmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4": {
+            "Khaliilii\\Fgcm\\":"src"
+        	}
+	},
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Khaliilii\\Fgcm\\Providers\\FgcmServiceProvider"
+
+      ],
+      "aliases": {
+        "FgcmFacade": "Khaliilii\\Fgcm\\Facade\\FgcmFacade"
+      }
+    }
+  },
+    "minimum-stability": "dev",
+    "require": {}
+}
