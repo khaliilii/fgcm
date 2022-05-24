@@ -21,15 +21,24 @@
 
 ### step3
 
-#### add FCM_SERVER_KEY=****************** line on .env file
-
+#### add .env file
+```
+FCM_SERVER_KEY=****************** line on 
+```
 #### replace on **** charecter your firebase cloud messaging server key
 
 
 ## how use
-
-#### FgcmFacade::sendPushNotification($token,'test title','message body text');
 ```
-## response
-##### "{"multicast_id":5886777060155138643,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1543445961541593%df7ddc0fdf7ddc0f"}]}"
+ FgcmFacade::sendPushNotification($token,'test title','message body text');
+ ```
+ ## response
+```
+
+##### "{
+"multicast_id":5886777060155138643,
+"success":1,
+"failure":0,
+"canonical_ids":0,
+"results":[{"message_id":"0:1543445961541593%df7ddc0fdf7ddc0f"}]}"
 ```
