@@ -15,9 +15,9 @@
 #### Khaliilii\Fgcm\Providers\FgcmServiceProvider::class,
 
 #### and add this line on config\app.php => aliases
-
-#### 'FgcmFacade' => Khaliilii\Fgcm\Facade\FgcmFacade::class,
-
+```
+   'FgcmFacade' => Khaliilii\Fgcm\Facade\FgcmFacade::class,
+````
 
 ### step3
 
@@ -29,6 +29,7 @@
 ## how use
 
 #### FgcmFacade::sendPushNotification($token,'test title','message body text');
-
+```
 ## response
 ##### "{"multicast_id":5886777060155138643,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1543445961541593%df7ddc0fdf7ddc0f"}]}"
+```
