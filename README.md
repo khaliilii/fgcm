@@ -35,7 +35,7 @@ FCM_SERVER_KEY=****************** line on
  ## response
 ```
 
-##### "{
+ "{
 "multicast_id":5886777060155138643,
 "success":1,
 "failure":0,
